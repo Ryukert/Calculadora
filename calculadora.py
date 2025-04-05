@@ -14,6 +14,7 @@ while True:
                 continue
             resultado = num1 / num2
             print(f"El resultado de la división es: {resultado}")
+            
 
     if opcion == "5":
         print("¡Hasta luego!")
