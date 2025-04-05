@@ -7,6 +7,13 @@ while True:
     print("5. Salir")
 
     opcion = input("Elige una opción (1-5): ")
+    match opcion:
+        case "4":
+            if num2 == 0:
+                print("Error: No se puede dividir entre cero.")
+                continue
+            resultado = num1 / num2
+            print(f"El resultado de la división es: {resultado}")
 
     if opcion == "5":
         print("¡Hasta luego!")
